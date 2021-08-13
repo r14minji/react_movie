@@ -1,0 +1,40 @@
+.movie_search_wrap {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  .search_input {
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 50px;
+    padding-right: 90px;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  .search_button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .keyword_area {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .movie_list_area {
+    .movie_info {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid white;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #cccccc;
+  ul {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    li {
+      margin-right: 50px;
+    }
+    a {
+      display: block;
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+}
